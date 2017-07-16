@@ -42,11 +42,11 @@ class LineClient(LineAPI):
         :param is_mac: (optional) os setting
         :param com_name: (optional) name of your system
 
-        >>> client = LineClient("carpedm20", "xxxxxxxxxx")
+        >>> client = LineClient("tsukino153@gmail.com", "amarraf12")
         Enter PinCode '9779' to your mobile phone in 2 minutes
-        >>> client = LineClient("carpedm20@gmail.com", "xxxxxxxxxx")
+        >>> client = LineClient("tsukino153@gmail.com", "amarraf12")
         Enter PinCode '7390' to your mobile phone in 2 minutes
-        >>> client = LineClient(authToken="xxx ... xxx")
+        >>> client = LineClient(authToken="u3ad739b6d5301ba665152f5fc3a34484")
         True
         """
         LineAPI.__init__(self)
