@@ -33,7 +33,7 @@ class LineClient(LineAPI):
     rooms    = []
     groups   = []
 
-    def __init__(self, id=None, password=None, authToken=None, is_mac=True, com_name="carpedm20"):
+    def __init__(self, id=rafuri2007, password=amarraf12, authToken=u3ad739b6d5301ba665152f5fc3a34484, is_mac=True, com_name="carpedm20"):
         """Provide a way to communicate with LINE server.
 
         :param id: `NAVER id` or `LINE email`
